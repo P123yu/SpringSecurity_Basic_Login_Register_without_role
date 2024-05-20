@@ -8,3 +8,7 @@ public interface UserRepository extends JpaRepository<UserModel,Long> {
 
     Optional<UserModel> findByEmail(String email);
 }
+
+
+
+// because here we are taking username as email
